@@ -1,82 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>Robowars</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboWars</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-	<div class="navBar">
-		<div class="navLeft">
-			<div class="Title">
-				RoboVITics
-			</div>
-			<!-- <div class="Image">
-				<img src="RobotWars.webp" alt="" width="50" height="50">
-			</div> -->
-		</div>
-		<div class="navRight" >
-			<a class="Specs navElements" href="#" target="_blank">
-				Robot Specs
-			</a>
-			<a class="Scoring navElements" href="#" target="_blank">
-				Scoring
-			</a>
-			<a class="Rules navElements"href="#" target="_blank">
-				General Rules
-			</a>
-		</div>
-	</div>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
 
-	<div class="mainBody">
-		<div class="leftContent">
-			<img class="contentImage"src="Robowars_bots.jpg" alt="">
-		</div>
-		<div class="rightContent">
-			<div class="logo">
-				Robowars
-			</div>
-			<div class="body">
-				It's Bigger... <br/>
-				It's Better... <br/>
-				And It's Back! <br/>
-			</div>
-			<div class="bottomText">
-				Let the war begin!
-			</div>
-			<a href="/form.html" class="joinButton">
-				JOIN NOW
-			</a>
-		</div>
-	</div>
+<body class="">
+    <div class="px-16 p-4 flex items-center absolute left-0 right-0 top-0">
+        <h1 class="text-white text-5xl font-extrabold flex flex-grow" id="logo"><img class="h-16" src="logo.svg"
+                alt="logo"><span class="p-2 px-8" id="logo">Robo Wars</span>
+        </h1>
 
-	<div class="footer">
-		<div class="footerLeft">
-			<div class="about footerElements">
-				About
-			</div>
-			<div class="contact footerElements">
-				Contact Us
-			</div>
-		</div>
-		<div class="footerRight">
-			<div class="twitter footerElements">
-				Twitter
-			</div>
-			<div class="linkedin footerElements">
-				Linkedin
-			</div>
-			<div class="instagram footerElements">
-				Instagram
-			</div>
-			<div class="facebook footerElements">
-				facebook
-			</div>
-		</div>
-		
-	</div>
-	
+        <div class="flex space-x-16 px-16 font-light items-center">
+            <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
+                <a href="https://robovitics.in/">About Us</a> 
+            </h3>
+            <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
+                Events
+            </h3>
+            <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
+                Contact us
+            </h3>
+        </div>
+    </div>
+    <div class="h-screen pt-16 c">
+        <div class="ml-24 mt-12 pt-20 text-white">
+            <h1 class="pb-8 text-7xl">Join for</h1>
+            <h1 class="pb-10 text-7xl">the exciting battle</h1>
+            <h5 class="text-xl pb-10">ROBOWARS, the falgship event of Gravitas is one-it’s kind combat robotics <br>
+                competition.
+            </h5>
+                <button style="width:250px" class="bg-orange-500 text-xl hover:bg-orange-400 p-4 duration-200 hover:text-white"><a href="form.html">See in action</a> </button>
+        </div>
+    </div>
 </body>
+
 </html>

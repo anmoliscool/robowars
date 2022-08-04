@@ -1,30 +1,30 @@
 <html>
 
 <head>
-    <title>Home Page</title>
+    <title>Registration Form</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+
 </head>
 
-<body class="" style="background-image: url(https://images6.alphacoders.com/357/357502.jpg); background-size: cover; background-repeat: no-repeat;">
+<body class="w-screen h-screen bg-cover bg-no-repeat" style=" background-image: url(bg.svg);">
     <div class="w-screen h-screen">
-        <div class="bg-neutral-900/[0.8] px-4 p-2 flex items-center absolute left-0 right-0 top-0">
-            <h1 class="text-white text-5xl font-extrabold flex-grow"><img class="h-20"
-                    src="1-removebg-preview-white.png" alt="logo">
+        <div class="px-16 p-4 flex items-center absolute left-0 right-0 top-0">
+            <h1 class="text-white text-5xl font-extrabold flex flex-grow" id="logo"><img class="h-16" src="logo.svg"
+                alt="logo"><span class="p-2 px-8" id="logo">Robo Wars</span>
             </h1>
 
-            <div class="flex space-x-24 font-light items-center">
+            <div class="flex space-x-16 font-light items-center">
                 <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
-                    About Us
+                    <a href="https://robovitics.in/">About Us</a> 
                 </h3>
                 <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
-                    Contact
+                    Contact Us
                 </h3>
-                <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
-                    Discover
-                </h3>
-                <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
-                    Scoring
-                </h3>
+               
                 <h3 class="text-white text-xl hover:text-orange-500 hover:scale-110 cursor-pointer duration-100">
                     General Rules
                 </h3>
@@ -36,7 +36,7 @@
                     join the
                     <span class="text-9xl text-orange-600 font-bold">fun</span>
                 </h1>
-                <div class="bg-neutral-800 shadow-lg p-4 rounded-xl h-3/5 w-1/3">
+                <div class="bg-neutral-800/[0.5] shadow-lg p-4 rounded-xl h-3/5 w-1/3">
                     <form class="flex justify-between h-full space-y-3 flex-col">
                         <div class="flex flex-col space-y-2">
                             <label class="text-white mb-2 text-lg">Name:</label>
@@ -57,8 +57,10 @@
                                 name="" id="" placeholder="+91 XXXXX XXXXX" />
                         </div>
                         <button
-                            class="bg-orange-600 text-white font-bold hover:bg-orange-500 p-4 duration-200 hover:text-white rounded-md">
-                            Submit
+                            class="bg-orange-600 text-white font-bold hover:bg-orange-500 p-2 duration-200 hover:text-white rounded-md">
+                            <span class="tracking-widest">
+                                Submit
+                            </span>
                         </button>
                     </form>
                 </div>
