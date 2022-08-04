@@ -8,3 +8,30 @@ body{
 #logo,h3,h1,h5,button{
     font-family: 'Love Ya Like A Sister', cursive !important; 
 }
+fa{  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+} 
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}  
+
+.fa:hover {  
+    opacity: 0.9;  
+}  
